@@ -57,8 +57,8 @@ Add a local path repository while developing, then require it:
 composer require zerp/your-module-slug:@dev
 ```
 
-Laravel's package auto-discovery picks up the service provider automatically — no manual registration needed.
+Laravel's package auto-discovery picks up the service provider automatically - no manual registration needed.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
