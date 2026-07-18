@@ -70,7 +70,7 @@ class ExamplePackageItemController extends Controller
             $item->is_active = $validated['is_active'];
             $item->save();
 
-            return back()->with()->with('success', __('Item updated successfully.'));
+            return back()->with('success', __('Item updated successfully.'));
         }
         return redirect()->route('example-package.items.index')->with('error', __('Permission denied'));
     }
@@ -80,7 +80,7 @@ class ExamplePackageItemController extends Controller
         if(Auth::user()->can('delete-example-package')){
             $item->delete();
 
-            return back()->with()->with('success', __('Item deleted successfully.'));
+            return back()->with('success', __('Item deleted successfully.'));
         }
         return redirect()->route('example-package.items.index')->with('error', __('Permission denied'));
     }
