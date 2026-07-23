@@ -1,6 +1,6 @@
 {
     "name": "zerp/example-package",
-    "description": "Description for example-package package",
+    "description": "Starter template for a Zerp module: copy it, rename ExamplePackage, and build.",
     "type": "library",
     "license": "MIT",
     "require": {},
